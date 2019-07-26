@@ -5,13 +5,13 @@ body {
 }
 
 p {
-  color: #393e46;
+  color: #173f5b;
   font-size: 1rem;
   line-height: 2;
 }
 
 hr {
-  border: dotted #929aab;
+  border: dotted #cad4d0;
   border-bottom: none;
   margin: 100px auto;
   size: 15px;
@@ -25,27 +25,34 @@ hr {
 }
 
 .nav-link {
-  color: #393e46;
+  color: #0d1d2a;
   font-size: 1.2rem;
 }
 
 #logo {
-  color: #393e46;
+  color: #0d1d2a;
   font-family: "Playfair Display";
-  line-height: 1.5;
-  font-size: 3rem;
-  font-weight: 900;
   margin-left: 10px;
+}
+
+/* main section */
+
+.main-text {
+}
+
+.background-image {
+  width: 40%;
+  right: 30%;
 }
 
 /* about section */
 
 .contact-icon {
-  color: #929aab;
+  color: #cad4d0;
   font-size: 2rem;
 }
 
-#about-avatar {
+.about-avatar {
   float: left;
   margin: 0 30px 30px 0;
 }
@@ -67,6 +74,6 @@ hr {
 
 /* footer section */
 
-#copyright {
-  color: #929aab;
+.copyright {
+  color: #cad4d0;
 }
