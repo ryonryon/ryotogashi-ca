@@ -2,6 +2,12 @@
 
 body {
   font-family: "Lato";
+  text-align: center;
+}
+
+h1 {
+  font-family: "Playfair Display";
+  color: #0d1d2a;
 }
 
 p {
@@ -41,7 +47,7 @@ hr {
 }
 
 .background-image {
-  width: 40%;
+  width: 60%;
   right: 30%;
 }
 
