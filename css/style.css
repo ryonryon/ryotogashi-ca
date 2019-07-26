@@ -1,5 +1,9 @@
 /* tag style */
 
+body {
+  font-family: "Lato";
+}
+
 p {
   color: #393e46;
   font-size: 1rem;
@@ -22,21 +26,16 @@ hr {
 
 .nav-link {
   color: #393e46;
-  font-family: "Dancing Script";
   font-size: 1.2rem;
 }
 
 #logo {
   color: #393e46;
-  font-family: "Dancing Script";
+  font-family: "Playfair Display";
   line-height: 1.5;
   font-size: 3rem;
   font-weight: 900;
   margin-left: 10px;
-}
-
-#main-section {
-  margin: 50px;
 }
 
 /* about section */
