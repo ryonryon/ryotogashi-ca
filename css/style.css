@@ -24,7 +24,7 @@ p {
 hr {
   border: dotted #cad4d0;
   border-bottom: none;
-  margin: 100px auto;
+  margin: 50px auto;
   size: 15px;
   width: 5%;
 }
@@ -100,6 +100,7 @@ hr {
 .contact-icon {
   color: #cad4d0;
   font-size: 2rem;
+  margin: 0 2%;
 }
 
 .copyright {
