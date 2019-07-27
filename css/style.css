@@ -21,7 +21,11 @@ p {
   line-height: 2;
 }
 
-hr {
+.card {
+  padding: 5%;
+}
+
+.section-hr {
   border: dotted #cad4d0;
   border-bottom: none;
   margin: 50px auto;
@@ -83,26 +87,28 @@ nav .brand-logo {
 
 /* project section */
 
-.card {
-  text-align: center;
-  height: 274;
-  margin: 8px;
-  width: 210px;
-}
-
 /* skills */
 
 .skill-item {
-  margin: 8px auto;
-  padding: 8px;
-  text-align: center;
+  display: inline;
+  margin: 1% 1%;
+  color: #173f5b;
+  font-size: 1.2rem;
+}
+
+.skill-hr {
+  border: dotted #cad4d0;
+  border-bottom: none;
+  margin: 20px auto;
+  size: 15px;
+  width: 5%;
 }
 
 /* footer section */
 
 .contact-icon {
   color: #cad4d0;
-  font-size: 2rem;
+  font-size: 1.2rem;
   margin: 0 2%;
 }
 
