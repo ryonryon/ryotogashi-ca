@@ -34,6 +34,15 @@ hr {
 }
 
 /* navigation section */
+.nav-wrapper {
+  text-align: left;
+}
+
+nav .brand-logo {
+  color: #0d1d2a;
+  font-family: "Playfair Display";
+  margin-left: 10px;
+}
 
 .nav-item {
   padding: 0 18px;
@@ -42,12 +51,6 @@ hr {
 .nav-link {
   color: #0d1d2a;
   font-size: 1.2rem;
-}
-
-#logo {
-  color: #0d1d2a;
-  font-family: "Playfair Display";
-  margin-left: 10px;
 }
 
 /* main section */
