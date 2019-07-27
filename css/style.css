@@ -5,7 +5,12 @@ body {
   text-align: center;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Playfair Display";
   color: #0d1d2a;
 }
@@ -19,9 +24,13 @@ p {
 hr {
   border: dotted #cad4d0;
   border-bottom: none;
-  margin: 100px auto;
+  margin: 50px auto;
   size: 15px;
   width: 5%;
+}
+
+.container-fluid {
+  padding: 5% 8%;
 }
 
 /* navigation section */
@@ -44,28 +53,35 @@ hr {
 /* main section */
 
 .main-text {
+  margin: 20% 0;
 }
 
 .background-image {
-  width: 60%;
+  width: 80%;
   right: 30%;
+  margin: 20% 0;
 }
 
 /* about section */
 
-.contact-icon {
-  color: #cad4d0;
-  font-size: 2rem;
+.avatar-image {
+  height: 240px;
+  width: 240px;
+  left: 30%;
+  margin: 10% 0;
 }
 
-.about-avatar {
-  float: left;
-  margin: 0 30px 30px 0;
+.about-text {
+  right: 30%;
+  font-size: 1.2rem;
+  margin: 10% 0;
+  text-align: left;
 }
 
 /* project section */
 
 .card {
+  text-align: center;
   height: 274;
   margin: 8px;
   width: 210px;
@@ -76,9 +92,15 @@ hr {
 .skill-item {
   margin: 8px auto;
   padding: 8px;
+  text-align: center;
 }
 
 /* footer section */
+
+.contact-icon {
+  color: #cad4d0;
+  font-size: 2rem;
+}
 
 .copyright {
   color: #cad4d0;
