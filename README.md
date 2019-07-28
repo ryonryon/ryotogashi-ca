@@ -2,6 +2,11 @@
 ### color palette
 https://colorhunt.co/palette/130807
 
+### used website
+https://simpleicons.org/
+http://fontello.com/
+https://co.bsnws.net/article/99
+
 
 ### firebase hosting
 https://firebase.google.com/docs/hosting
