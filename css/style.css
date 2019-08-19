@@ -2,7 +2,7 @@
 
 body {
   font-family: "Lato";
-  text-align: center;
+  letter-spacing: 1px;
 }
 
 h1,
@@ -61,31 +61,77 @@ nav .brand-logo {
 
 /* main section */
 
+.main-image {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.background-image {
+  width: 100%;
+}
+
 .main-text {
-  margin: 20% 0;
+  font-size: 36px;
   letter-spacing: 2px;
   line-height: 120%;
 }
 
-.main-image {
-  margin: 0;
-  position: relative;
-}
-
-.background-image {
-  width: 90%;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
 /* about section */
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
 .avatar-image {
-  height: 240px;
-  width: 100%;
-  left: 30%;
-  margin: 10% 0;
+  max-width: 60%;
+}
+
+@media (min-width: 993px) {
+  .main-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+  }
+
+  .main-image {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .background-image {
+    width: 100%;
+  }
+
+  .main-content {
+    position: absolute;
+    top: 50%;
+    width: 70%;
+  }
+
+  .main-content h2 {
+    margin: 0;
+  }
+
+  .main-text {
+    margin: 20% 0;
+    letter-spacing: 2px;
+    line-height: 120%;
+  }
+
+  /* about section */
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .avatar-image {
+    max-width: 80%;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 1024) {
